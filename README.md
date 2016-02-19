@@ -21,5 +21,5 @@ And voilà.
 
 ##TODO
 - Show usage of words in actual sentences.
-- Flags for difficulty levels of words. (- e/m/t - Easy/Medium/Tough)
-- Create the help page word --help
+- Flags for difficulty levels of words. (`-e`/`-m`/`-t` - Easy/Medium/Tough)
+- Create the help page `word --help`
