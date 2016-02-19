@@ -3,7 +3,7 @@ import random
 import click
 
 def selectRandomWord():
-	with open('dictionary.json') as data_file:
+	with open('word/dictionary.json') as data_file:
 		data = json.load(data_file)
 
 	random_index = random.randrange(0,len(data))	

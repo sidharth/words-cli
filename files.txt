@@ -1,0 +1,2 @@
+/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/words_cli-0.0.1-py2.7.egg
+/Library/Frameworks/Python.framework/Versions/2.7/bin/word

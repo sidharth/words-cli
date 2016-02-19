@@ -4,14 +4,19 @@ import sys
 setup(
 	name='words-cli',
 	description='Learn some new words!',
-	long_description='Preparing for the SAT/GRE/GMAT? Why not put those extra seconds of free time to some good use with this awesome CLI!'
+	long_description='Preparing for the SAT/GRE/GMAT? Why not put those extra seconds of free time to some good use with this awesome CLI!',
 	version='0.0.1',
 	author='Sidharth Raja',
-	author_email='sidharth15.raja@gmail.com'
+	author_email='sidharth15.raja@gmail.com',
 	license='MIT',
 	keywords='words word vocabulary gre gmat sat language',
 	url='https://github.com/sidharth/words-cli',
-	packages=['words-cli'],
+	packages=['word'],
+	# data_files = [('word', ['word/dictionary.json'])],
+	# data_files=[('word','word/dictionary.json')],
+	# data_files=[('word', ['word/dictionary.json'])],
+	include_package_data=True,
+	package_data={'word': ['word/dictionary.json']},
     install_requires=[
         "click>=5.0",
     ],
