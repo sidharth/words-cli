@@ -17,7 +17,7 @@ After installation, just pop this into the command line.
 
 And voilà.
 
-![example](http://i.imgur.com/uggmHXf)
+![example](http://i.imgur.com/uggmHXf.png)
 
 ##TODO
 - Show usage of words in actual sentences.
